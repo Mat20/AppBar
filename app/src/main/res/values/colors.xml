@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C53766</color>
+    <color name="colorPrimaryDark">#EF6090</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#C53766</color>
+    <color name="grandStop">#EF6090</color>
+
+    <color name="menugradiente">#5963BF</color>
+    <color name="funcionariogradiente">#68EF63</color>
+    <color name="clientegradiente">#C53766</color>
+    <color name="rosacard">#c53766</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+
+
+
+</resources>

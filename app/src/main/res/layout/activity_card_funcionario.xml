@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/funcionario_gradient"
+    tools:context=".AppBar.CardFuncionarioActivity">
+
+
+    <Button
+        android:id="@+id/btnFuncionarioListar"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/funcionariogradiente"
+        android:onClick="listarfuncionario"
+        android:text="@string/btnFuncionarioListar"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/btnFuncionarioAtualizar"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/funcionariogradiente"
+        android:onClick="atualizarfuncionario"
+        android:text="@string/btnFuncionarioAtualizar"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/btnFuncionarioApagar"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/funcionariogradiente"
+        android:onClick="apagarfuncionario"
+        android:text="@string/btnFuncionarioApagar"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <Button
+        android:id="@+id/btnFuncionario"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/funcionariogradiente"
+        android:onClick="funcionario"
+        android:text="@string/btnFuncionario"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

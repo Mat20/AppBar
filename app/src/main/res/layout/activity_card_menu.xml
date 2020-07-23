@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_gradient"
+    tools:context=".AppBar.CardMenuActivity">
+
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/menugradiente"
+        android:onClick="menu"
+        android:text="@string/btnMenu"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <Button
+        android:id="@+id/btnMenuListar"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/menugradiente"
+        android:onClick="menulistar"
+        android:text="@string/btnMenuLista"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <Button
+        android:id="@+id/btnMenuUpdate"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/menugradiente"
+        android:onClick="menuup"
+        android:text="@string/btnMenuUpdate"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnMenuApagar"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/menugradiente"
+        android:onClick="menuapagar"
+        android:text="@string/btnMenuApagar"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

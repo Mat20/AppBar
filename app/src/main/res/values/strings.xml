@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">LocalizaBar</string>
+    <string name="btncardcliente">Cliente</string>
+    <string name="btncardfuncionario">Funcionario</string>
+    <string name="btncardmenu">Menu</string>
+    <string name="btnLogar">Logar</string>
+    <string name="btnFuncionarioListar">Lista de Funcionarios</string>
+    <string name="btnFuncionarioApagar">Apagar</string>
+    <string name="btnFuncionarioAtualizar">Atualizar</string>
+    <string name="btnFuncionario">Funcionario</string>
+    <string name="btnMenu">Menu</string>
+    <string name="btnMenuLista">Menu Listar</string>
+    <string name="btnMenuApagar">Menu Apagar</string>
+    <string name="btnMenuUpdate">Menu Atualizar</string>
+    <string name="btnCad">Cadastrar</string>
+    <string name="btnListar">Listar Todos</string>
+    <string name="btnUpdate">Atualizar</string>
+    <string name="btnDeletar">Apagar</string>
+    <string name="btnSair">Sair</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnSalvarCadastro">Salvar</string>
+    <string name="btnSalvarFuncionario">Salvar</string>
+    <string name="btnSalvarMenu">Salvar</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtCPF">CPF</string>
+    <string name="txtNomeFuncionario">Nome</string>
+    <string name="txtCPFFuncionario">CPF</string>
+    <string name="txtTelaCadCliente">Cadastro de Cliente</string>
+    <string name="txtTelaCadMesa">Mesa</string>
+    <string name="txtTelaCadMenu">Cadastro de Menu</string>
+    <string name="txtTelaCadFuncionario">Cadastro de Funcionario</string>
+    <string name="txtProduto">Protudo</string>
+    <string name="txtBebida">Bebida</string>
+    <string name="txtPreco">Preco</string>
+
+</resources>
